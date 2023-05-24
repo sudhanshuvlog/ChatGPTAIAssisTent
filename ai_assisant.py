@@ -110,7 +110,8 @@ while message.lower!="bye":
                 print("i am listening.....")
                 audio = r.listen(source)
             code = r.recognize_google(audio)
-            code="You're a web developer who has been tasked with creating a website for a Harry Potter fan community., as well as a form for users to join the community. How would you design and build this website? Write complete html code and considerations to ensure that the website is visually appealing, user-friendly, and meets the needs of the Harry Potter fan community. It should also have js where text should be animated background should be black."
+            #below is the example prompt which you can ask the assistant
+            #code="You're a web developer who has been tasked with creating a website for a Harry Potter fan community., as well as a form for users to join the community. How would you design and build this website? Write complete html code and considerations to ensure that the website is visually appealing, user-friendly, and meets the needs of the Harry Potter fan community. It should also have js where text should be animated background should be black."
             print(code)
             if("html" in code.lower()):
                 file_extension=".html"
