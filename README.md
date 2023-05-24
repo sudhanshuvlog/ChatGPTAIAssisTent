@@ -1,3 +1,3 @@
 # ChatGPTAIAssisTent
 
-How to use it? - https://www.youtube.com/watch?v=hQfuFrVqLGA
+How to use it? - [![Video]([https://example.com/video-thumbnail.png)]
